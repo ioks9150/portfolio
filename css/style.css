@@ -1997,6 +1997,63 @@ font-family: 'Noto Sans KR', sans-serif;
   border-color: #e1e1e1;
 }
 
+
+
+
+/*------------------화살표수정--------------------*/
+
+/*
+.arrow_right:before {
+	content: "\24";
+}
+*/
+.arrow_right:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 1px;
+    background-color: #042164;
+    opacity: 0;
+    /* position: absolute; */
+    vertical-align: middle;
+    margin-bottom: 8px;
+    transition: all 0.5s;
+}
+.blog__item:hover .arrow_right:before {
+	opacity: 1;
+    width: 50px;
+    transition: all 0.5s;
+}
+
+
+/*------------------화살표수정--------------------*/
+/*
+.latest{
+    position: relative;
+}
+.latest .star{
+    width: 500px;
+    height: 1px;
+    opacity: 1px;
+    background-color: yellow;
+    position: fixed;
+    top:50%;
+    left:10%;
+    transform: rotate(-45deg);
+    z-index: 9999;
+}
+*/
+
+
+
+
+/*---------------------------------------------*/
+
+
+
+
+
+
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 @media only screen and (min-width: 1200px) {
   .container {
