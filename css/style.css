@@ -2007,7 +2007,7 @@ font-family: 'Noto Sans KR', sans-serif;
 	content: "\24";
 }
 */
-.arrow_right:before {
+.latest .blog__item .arrow_right:before {
     content: "";
     display: inline-block;
     width: 10px;
