@@ -31,6 +31,7 @@ html,
 body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   -webkit-font-smoothing: antialiased;
 /*font-family: 'Roboto', sans-serif;*/
 }
@@ -42,9 +43,10 @@ h4,
 h5,
 h6 {
   margin: 0;
-  color: #111111;
+  color: #fff;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 h1 {
@@ -74,7 +76,8 @@ h6 {
 p {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  color: #adadad;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #fff;
   font-weight: 400;
   line-height: 26px;
   margin: 0 0 15px 0;
@@ -95,7 +98,7 @@ a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
-  color: #fff;
+  color: #e9d81b;
 }
 
 ul,
@@ -135,10 +138,6 @@ ol {
 .section-title h2:after {
   position: absolute;
   left: 0;
-/*
-  right:1%;
-  margin: 0 auto;
-*/
   bottom: 0;
   height: 5px;
   width: 70px;
@@ -203,10 +202,6 @@ ol {
   top: 0;
   height: 30px;
   width: 30px;
-/*
-  border-left: 2px solid #00bfe7;
-  border-top: 2px solid #00bfe7;
-*/
   border-left: 2px solid #e9d81b;
   border-top: 2px solid #e9d81b;
   content: "";
@@ -221,10 +216,6 @@ ol {
   bottom: 0;
   height: 30px;
   width: 30px;
-/*
-  border-right: 2px solid #00bfe7;
-  border-bottom: 2px solid #00bfe7;
-*/
   border-right: 2px solid #e9d81b;
   border-bottom: 2px solid #e9d81b;
   content: "";
