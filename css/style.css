@@ -563,6 +563,7 @@ ol {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+    background-position: center;
 }
 .work__item:hover .work__item__hover {
   bottom: 0;
@@ -2411,6 +2412,14 @@ font-family: 'Noto Sans KR', sans-serif;
   .blog__details__quote {
 /*    padding: 30px 45px 35px 35px;*/
   }
+    .team__item__text .team__item__social a{
+        width:73px;
+        margin-right:3px;
+        font-size: 12px;
+    }
+    .team__item__text .team__item__social a:last-child{
+        margin-right:0px;
+    }
 }
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {
@@ -2451,4 +2460,17 @@ font-family: 'Noto Sans KR', sans-serif;
   .blog__details__quote {
     padding: 30px 40px 35px 35px;
   }
+    
+}
+
+@media only screen and (max-width: 365px) {
+/*
+    .team__item__text .team__item__social a{
+        width:85px;
+        margin-right:3px;
+    }
+    .team__item__text .team__item__social a:last-child{
+        margin-right:0px;
+    }
+*/
 }
