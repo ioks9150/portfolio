@@ -1024,7 +1024,9 @@ display: inline-block;
 .footer__option__item .read__more {
   font-size: 16px;
   color: #ffffff;
+
 }
+/*
 .footer__option__item .read__more span {
   font-size: 16px;
   color: #ffffff;
@@ -1033,6 +1035,7 @@ display: inline-block;
   top: 4px;
   margin-left: 5px;
 }
+*/
 .footer__option__item ul li {
   list-style: none;
 }
@@ -2027,30 +2030,6 @@ font-family: 'Noto Sans KR', sans-serif;
 
 
 /*------------------화살표수정--------------------*/
-/*
-.latest{
-    position: relative;
-}
-.latest .star{
-    width: 500px;
-    height: 1px;
-    opacity: 1px;
-    background-color: yellow;
-    position: fixed;
-    top:50%;
-    left:10%;
-    transform: rotate(-45deg);
-    z-index: 9999;
-}
-*/
-
-
-
-
-/*---------------------------------------------*/
-
-
-
 
 
 
