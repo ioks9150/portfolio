@@ -817,7 +817,7 @@ display: inline-block;
   top: 0;    
   height: 100%;
   width: 100%;
-  background: url(../img/team/team-hover.png);
+  background: url(../images/team-hover.png);
   content: "";
   z-index: -1;
 }
