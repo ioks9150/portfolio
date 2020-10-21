@@ -31,7 +31,6 @@ html,
 body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
-  font-family: 'Noto Sans KR', sans-serif;
   -webkit-font-smoothing: antialiased;
 /*font-family: 'Roboto', sans-serif;*/
 }
@@ -46,7 +45,6 @@ h6 {
   color: #fff;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 h1 {
@@ -76,11 +74,13 @@ h6 {
 p {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  font-family: 'Noto Sans KR', sans-serif;
   color: #fff;
   font-weight: 400;
   line-height: 26px;
   margin: 0 0 15px 0;
+}
+a {
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -179,8 +179,8 @@ ol {
 .primary-btn {
   display: inline-block;
   font-size: 15px;
-  font-family: "Play", sans-serif;
-  font-weight: 700;
+font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   padding: 14px 32px 12px;
   color: #ffffff;
   text-transform: uppercase;
@@ -805,6 +805,7 @@ display: inline-block;
   -webkit-transition: all, 0.5s;
   -o-transition: all, 0.5s;
   transition: all, 0.5s;
+  
 }
 .team__item__text:before {
   position: absolute;
@@ -819,13 +820,15 @@ display: inline-block;
 .team__item__text h4 {
   font-size: 22px;
   color: #ffffff;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 .team__item__text p {
   color: #ffffff;
-  font-weight: 300px;
+    font-family: 'Noto Sans KR', sans-serif;
+font-weight: 300;
   margin-bottom: 2px;
 }
 .team__item__text .text{
@@ -839,6 +842,8 @@ display: inline-block;
 .team__item__text .team__item__social a {
   color: #ffffff;
   display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
   font-size: 13px;
   margin-right: 10px;
   width:100px;
@@ -1108,7 +1113,7 @@ display: inline-block;
 .read__more {
   display: inline-block;
   font-size: 15px;
-  font-family: "Play", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   padding: 14px 32px 12px;
   color: #ffffff;
@@ -1349,7 +1354,9 @@ display: inline-block;
 
 .services__title p {
   margin-bottom: 45px;
-    color:#fff;
+  color:#fff;
+  font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
 }
 
 .services__item {
@@ -1371,7 +1378,7 @@ display: inline-block;
   margin-bottom: 0;
 color:#fff;
 font-family: 'Noto Sans KR', sans-serif;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .services__item__icon {
@@ -1728,8 +1735,8 @@ font-family: 'Noto Sans KR', sans-serif;
   Blog Details
 -----------------------*/
 .blog-details {
-  background: #fff;
-    padding-top:50px;
+  background: #f7f7f7;
+    padding-top:65px;
 }
 .blog-details p{
     color:#222;
@@ -1740,10 +1747,10 @@ font-family: 'Noto Sans KR', sans-serif;
 }
 .blog__deatails__img{}
 .blog__deatails__img img{
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+/*    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);*/
 }
 .blog__details__text {
-  margin-top: 100px;
+  margin-top: 0px;
   margin-bottom: 50px;
     text-align: center;
 }
@@ -2502,14 +2509,21 @@ font-family: 'Noto Sans KR', sans-serif;
   .blog__details__quote {
 /*    padding: 30px 45px 35px 35px;*/
   }
+    .blog__details__quote h6{
+        font-size: 28px;
+    }
     .team__item__text .team__item__social a{
-        width:73px;
+        width:85px;
         margin-right:3px;
         font-size: 12px;
     }
     .team__item__text .team__item__social a:last-child{
         margin-right:0px;
     }
+    .team__item__text .team__item__social .landing{
+        width:100px;
+    }
+    
 }
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {
