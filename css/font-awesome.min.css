@@ -460,9 +460,11 @@
     content: "\f040"
 }
 
+/*
 .fa-map-marker:before {
     content: "\f041"
 }
+*/
 
 .fa-adjust:before {
     content: "\f042"
@@ -783,9 +785,11 @@
     content: "\f094"
 }
 
+/*
 .fa-phone:before {
     content: "\f095"
 }
+*/
 
 .fa-square-o:before {
     content: "\f096"

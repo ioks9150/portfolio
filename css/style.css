@@ -1845,6 +1845,7 @@ font-family: 'Noto Sans KR', sans-serif;
   padding: 100px 0 0px;
   background: #042265;
   text-align: center;
+background-position: center 0;
 }
 
 .blog__hero__text {
@@ -2141,10 +2142,12 @@ font-family: 'Noto Sans KR', sans-serif;
   Contact Widget
 -----------------------*/
 .contact-widget {
-  background: #100028;
-  padding-bottom: 70px;
+  background: #e9d81b;
+  padding-bottom: 10px;
 }
-
+.contact-widget.spad{
+    padding-top: 40px;
+}
 .contact__widget__item {
   margin-bottom: 30px;
 }
@@ -2152,7 +2155,7 @@ font-family: 'Noto Sans KR', sans-serif;
 .contact__widget__item__icon {
   height: 70px;
   width: 70px;
-  border: 1px solid rgba(225, 225, 225, 0.5);
+  border: 1px solid #222222;
   line-height: 80px;
   text-align: center;
   border-radius: 50%;
@@ -2161,21 +2164,23 @@ font-family: 'Noto Sans KR', sans-serif;
 }
 .contact__widget__item__icon i {
   font-size: 30px;
-  color: #ffffff;
+  color: #222222;
 }
 
 .contact__widget__item__text {
   overflow: hidden;
   padding-top: 7px;
+font-family: 'Noto Sans KR', sans-serif;
 }
 .contact__widget__item__text h4 {
   font-size: 22px;
-  color: #ffffff;
+  color: #222222;
   font-weight: 700;
-  margin-bottom: 10px;
 }
 .contact__widget__item__text p {
   margin-bottom: 0;
+    color:#222222;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 /*---------------------
@@ -2244,8 +2249,18 @@ font-family: 'Noto Sans KR', sans-serif;
   border-color: #e1e1e1;
 }
 
-
-
+.fa-map-marker:before {
+    content: url(../images/map.png);
+    vertical-align: middle;
+}
+.fa-phone:before {
+    content: url(../images/phone.png);
+    vertical-align: middle;
+}
+.fa-mail:before {
+    content: url(../images/mail.png);
+    vertical-align: middle;
+}
 
 /*------------------화살표수정--------------------*/
 
@@ -2731,7 +2746,7 @@ font-family: 'Noto Sans KR', sans-serif;
   }
 
   .blog__details__quote {
-    padding: 30px 40px 35px 35px;
+    padding: 30px 30px 35px 30px;
   }
         .portfolio__item__video .play-btn{
         background-color: rgba(0,0,0,0)
