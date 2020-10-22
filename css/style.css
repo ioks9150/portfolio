@@ -877,6 +877,7 @@ display: inline-block;
 .counter__item__text span{
     font-size:20px;
     color:#042265;
+    font-weight: 500;
 }
 .counter__item__text p {
   color: #042265;
@@ -1515,6 +1516,12 @@ font-weight: 300;
   margin-bottom: 18px;
 }
 .services__item p {
+  margin-bottom: 0;
+color:#fff;
+font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.services__item>p>span {
   margin-bottom: 0;
 color:#fff;
 font-family: 'Noto Sans KR', sans-serif;
