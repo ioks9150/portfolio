@@ -1668,21 +1668,8 @@ font-family: 'Noto Sans KR', sans-serif;
   display: inline-block;
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   position: relative;
-}
-.portfolio__item__text h4:after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 1px;
-  width: 100%;
-  background: #333;
-  content: "";
-  -webkit-transition: all, 0.3s;
-  -o-transition: all, 0.3s;
-  transition: all, 0.3s;
-  opacity: 0;
 }
 .portfolio__item__text ul li {
   list-style: none;
