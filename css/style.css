@@ -1620,9 +1620,6 @@ font-family: 'Noto Sans KR', sans-serif;
 .portfolio__item {
   margin-bottom: 35px;
 }
-.portfolio__item:hover .portfolio__item__text h4:after {
-  opacity: 1;
-}
 
 .portfolio__item__video {
   height: 240px;
